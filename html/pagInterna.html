@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/pagInternaStyle.css">
+    <title>Página interna</title>
+</head>
+
+<body>
+    <aside>
+        <ul>
+            <li><a href="../html/pagInterna.html">Página inicial</a><img
+                    src="../assets/Icones de imagem Preto/house.svg" alt="Casa" class="img_link"></li>
+            <hr>
+            <li><a href="../html/paginaRegistro.html">Registro de projeto</a><img
+                    src="../assets/Icones de imagem Preto/add.svg" alt=""></li>
+            <hr>
+            <li><a href="../html/paginaVisualizacao.html">Projetos Registrados</a><img
+                    src="../assets/Icones de imagem Preto/folder-open.svg" alt="Pasta" class="img_link"></li>
+            <hr>
+            <li><a href="https://github.com/JoaoFigueired0" target="_blank">GitHub</a><img
+                    src="../assets/Icones de imagem Preto/GitHub_logo.svg" alt="logo GitHub"></li>
+            <hr>
+            <li><a href="https://www.linkedin.com/in/jo%C3%A3o-victor-figueiredo-75a6b7293/"
+                    target="_blank">LinkedIn</a><img src="../assets/Icones de imagem Preto/LinkedIn_logo.svg"
+                    alt="logo LinkedIn" class="img_link"></li>
+            <hr>
+            <li class="btt_sair"><a href="../html/login.html">Sair</a><img
+                    src="../assets/Icones de imagem Preto/logout.svg" alt="Saida" class="img_link"></li>
+        </ul>
+    </aside>
+    <div class="ghost"></div>
+    <main>
+        <div>
+            <p>Gráfico 1 (Quantidade de População)</p>
+            <canvas id="chart1" width="20" height="20"></canvas>
+            <script>fetchPopulationData()</script>
+        </div>
+        <div>
+            <p>Gráfico 2 (Valor das Criptos)</p>
+            <canvas id="chart2" width="20" height="20"></canvas>
+            <script>fetchCryptoData()</script>
+        </div>
+        <div>
+            <p>Gráfico 3 (Quantidade de postagem)</p>
+            <canvas id="chart3" width="20" height="20"></canvas>
+            <script>fetchPostsData()</script>
+        </div>
+        <div class="chart_four">
+            <p>Gráfico 4 (Generos Rick e Morty)</p>
+            <div class="chart_four_canvas">
+                <canvas id="chart4" width="200" height="60"></canvas>
+                <script>fetchCharacterData()</script>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="../js/fetchPopulation.js"></script>
+    <script src="../js/fetchCrypto.js"></script>
+    <script src="../js/fetchPost.js"></script>
+    <script src="../js/fetchCharacter.js"></script>
+</body>
+
+</html>

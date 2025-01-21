@@ -1,0 +1,32 @@
+const nome = document.getElementById("input_criar_nome")
+const senhas = document.getElementById("input_criar_senha")
+const email = document.getElementById("input_email")
+const telefone = document.getElementById("input_telefone")
+const signIn = document.getElementById("btt_sign_in")
+
+signIn.addEventListener("click", () => {
+    const newLogin = 0
+    const newName = ""
+    const newPassoword = ""
+    const newEmail = ""
+    const newTelefone = ""
+
+    newLogin.forEach(element => {
+        let i = +
+        newLogin[i]
+        newName[nome]
+        newPassoword[senhas]
+        newEmail[email]
+        newTelefone[telefone]
+
+        const dataBase = {
+            newLogin:
+                [
+                    newName[nome],
+                    newPassoword[senhas],
+                    newEmail[email],
+                    newTelefone[telefone],
+                ]
+        }
+    });
+})

@@ -1,0 +1,5 @@
+Usar a APi do Github para:
+
+- Pegar informações de atividade
+- Quantidade de projeto
+- Linguagem mais usada

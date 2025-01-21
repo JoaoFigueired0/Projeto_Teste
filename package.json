@@ -1,0 +1,11 @@
+{
+  "name": "meu-projeto",
+  "version": "1.0.0",
+  "description": "Meu projeto com HTML, CSS e JS",
+  "main": "index.html",
+  "scripts": {
+    "start": "echo 'Não há servidor para rodar, apenas um site estático'"
+  },
+  "devDependencies": {},
+  "license": "MIT"
+}
