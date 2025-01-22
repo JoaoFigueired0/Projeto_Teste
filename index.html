@@ -9,19 +9,20 @@
 </head>
 
 <body>
-    <main>
-        <div class="main_input">
-            <label for="">Email</label>
-            <input type="email" placeholder="Coloque o e-mail de login" id="input_email"/>
+<main>
+    <div class="main_input">
+        <label for="input_email">Email</label>
+        <input type="email" placeholder="Coloque o e-mail de login" id="input_email" required/>
 
-            <label for="">Senha de usúario</label>
-            <input type="password" placeholder="Digite a senha de usúario" id="input_senha"/>
-            <section>
-                <a href="../html/primeiroLogin.html">Esqueceu a senha ou não tem login ?</a>
-                <button id="btt_login">Entrar</button>
-            </section>
-        </div>
-    </main>
+        <label for="input_senha">Senha de usuário</label>
+        <input type="password" placeholder="Digite a senha de usuário" id="input_senha" required/>
+        <section>
+            <a href="primeiroLogin.html">Esqueceu a senha ou não tem login?</a>
+            <button type="submit" id="btt_login">Entrar</button>
+        </section>
+    </div>
+</main>
+
 </body>
 <script src="js/login.js"></script>
 </html>
