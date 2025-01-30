@@ -1,0 +1,65 @@
+:root {
+  --corPrimaria: #24292e;
+  /*Preto*/
+  --corSegundaria: #2f363d;
+  /*Cinza Escuro*/
+  --corTerciaria: #5b5d5f;
+  /*Cinza Claro*/
+  --corFundo: #ffffff;
+  /*Branco*/
+  --corFundoInput: #ede1e1;
+  --corInput: #d4d2d2;
+  /*Cinza*/
+  --corBordaInput: #ababab;
+  /*Cinza mais claro*/
+  --corBotaoCorreto: #28a745;
+  /*Verde*/
+  --corLinks: #0366d6;
+  /*Azul*/
+  --corBotaoErrado: #d73a49;
+  /*Vermelho*/
+  --corAlerta: #ffd33d;
+  /*Amarelo*/
+
+  --background-color: #00090E;
+  --text-color: #E1E1E1;
+  --primary-color: #81FE88;
+  --secondary-color: #888888;
+  --tag-color: #171D1F;
+  --font-family: "Prompt", sans-serif;
+  --itens-background: #171D1F;
+}
+
+.container_btt_link {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  gap: 10px;
+}
+
+a {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  text-decoration: none;
+  color: var(--corLinks);
+}
+
+.container_btt_link div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container_btt_link div button{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  height: 40px;
+  width: 100px;
+  border-radius: 5px;
+  background-color: var(--corFundo);
+  border: 1.5px solid var(--background-color); 
+}
+
